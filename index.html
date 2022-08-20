@@ -4,47 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 <body>
     <!--Header-->
     <div class="header">
         <!--Top of header-->
-        <h3>Header Logo Here</h3>
-        <a href="">Line one</a>
-        <a href="">Line two</a>
-        <a href="">Line three</a>
+        <div class="header-top">
+            <h class="logo header-top-item">Header Logo Here</h>
+            <div class="links">
+                <a href="">Line one</a>
+                <a href="">Line two</a>
+                <a href="">Line three</a>
+            </div>
+       </div>
 
         <!--Bottom of header-->
-        <h2>This website is awesome</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate consectetur doloremque fugiat tempora quia molestiae aliquam perspiciatis, nulla, recusandae illo quis numquam quisquam ab? Ipsa nostrum nam dolores doloremque.</p>
-        <button type="button">Sign up</button>
-        <img src="/images/justice-league-logo" height="200">
+        <div class="header-bottom">
+            <div class="info-block">
+                <h2>This website is awesome</h2>
+                <p class="header-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate consectetur doloremque fugiat tempora quia molestiae aliquam perspiciatis, nulla, recusandae illo quis numquam quisquam ab? Ipsa nostrum nam dolores doloremque.</p>
+                <button type="button" class="header-button">Sign up</button>
+            </div>        
+            <img class="team-name" src="/images/justice-league-logo" height="200">
+        </div>
     </div>
+
     <!--Information-->
     <div class="information">
-        <h3>Some random information</h3>
-        <img src="/images/batman" height="200">
-        <p>batman info here</p>
-        <img src="/images/flash" height="200">
-        <p>flash info here</p>
-        <img src="/images/martian-manhunter-illustration" height="200">
-        <p>martian manhunter info here</p>
-        <img src="/images/superman" height="200">
-        <p>superman info here</p>
+
+        <h3 class="info-title">Some random information</h3>
+        <div class="hero-blocks">
+            <div class="hero-block">
+                <img src="/images/batman" height="200">
+                <p>batman info here</p>
+            </div>
+            <div class="hero-block">
+                <img src="/images/flash" height="200">
+                <p>flash info here</p>
+            </div>
+            <div class="hero-block">
+                <img src="/images/martian-manhunter-illustration" height="200">
+                <p>martian manhunter info here</p>
+            </div>   
+            <div class="hero-block">
+                <img src="/images/superman" height="200">
+                <p>superman info here</p>
+            </div>
+        </div>
     </div>
     
     <!--Quote area-->
     <div class="quote">
-        <blockquote>This is a longer quote with it's own section. How cool is that?</blockquote>
+        <blockquote><em>This is a longer quote with it's own section. How cool is that?</em></blockquote>
         <strong>-Author unknown</strong>
     </div>
 
     <!--Footer with call to action-->
     <div class="footer">
-        <h4>Call to action</h4>
-        <p>Sign up now by clicking the button!</p>
-        <button type="button">Sign up</button>
+        <div class="C2A">
+            <h4>Call to action</h4>
+            <p>Sign up now by clicking the button!</p>
+        </div>    
+        <button type="button" class="submit2">Sign up</button>
     </div>
 
 </body>

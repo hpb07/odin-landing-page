@@ -1,0 +1,137 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    padding: 50px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    color: #F9FAF8;
+}
+
+a:visited {
+    color: #F9FAF8;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-info {
+    color: #E5E7EB; 
+} 
+
+.header-button, 
+.footer {
+    /* button and footer color  */
+    background-color: #3882F6;
+}
+
+.header-button {
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+}
+
+/* -------------------------hero pics & info section------------------------ */
+
+.information {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hero-block {
+    text-align: center;
+    padding: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hero-block img {
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.hero-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+/* -------------------------quote section------------------------ */
+
+.quote, .strong {
+    padding: 75px;
+    background-color: lightgray;
+}
+
+blockquote {
+    text-align: center;
+}
+
+strong {
+    display: flex;
+    justify-content: end;
+}
+
+/* -------------------------footer section------------------------ */
+
+.footer {
+    display: flex;
+    color: #F9FAF8;
+    padding: 30px;
+}
+
+.C2A {
+    flex: auto;
+    padding-left: 50px;
+}
+
+.submit2 {
+    background-color: inherit;
+    color: inherit;
+    margin-left: auto;
+    border: 1px solid #F9FAF8;
+    border-radius: 1px;
+    margin: 40px 12px;
+}
